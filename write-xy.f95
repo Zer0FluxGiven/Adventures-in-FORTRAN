@@ -1,3 +1,5 @@
+!This program writes two text files "x_values.txt" and "y_values.txt"
+!The purpose of this program was to attempt to produce values in FORTRAN that could be accesed by a python program (read-and-plot.py)
 program xyvals
 implicit none
 real:: x, y
