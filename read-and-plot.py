@@ -2,14 +2,17 @@
 
 import matplotlib.pyplot as plt
 
+#open "x_values.txt" and retreive values
 x_file = open('x_values.txt')
 x_values = x_file.readlines()
 x_file.close()
 
+#open "y_values.txt" and retrieve values 
 y_file = open('y_values.txt')
 y_values = y_file.readlines()
 y_file.close
 
+#trim values, convert values from string to float
 for i in range(len(x_values)):
     x_values[i] = float(x_values[i].strip())
 
